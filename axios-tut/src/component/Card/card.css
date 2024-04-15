@@ -1,0 +1,36 @@
+.card-div{
+    border: 1px solid black;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    width: 350px;
+}
+
+.card-div div{
+    margin: 1rem;
+}
+
+.edit-btn{
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+}
+
+.edit-btn:hover{
+    background-color: gray;
+}
+
+.price-edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width:768px){
+    .card-div{
+        width: 400px;
+    }
+    
+}
